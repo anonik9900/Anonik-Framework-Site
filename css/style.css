@@ -1,0 +1,194 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+body { padding-top: 80px; }
+
+
+.navbar-brand{
+  height: 80px;
+  font-size: 18px;
+  line-height: 50px;
+}
+
+.navbar-nav>li>a {
+    height: 80px;
+    line-height: 50px;
+}
+
+.navbar-default{
+  background: white;
+}
+
+#home{
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#home-content{
+  margin: 0 auto;
+  height: 100vh;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+}
+
+#slide{
+  height: 100%;
+  width: 100%;
+}
+
+#slide-image{
+  height: 100vh;
+  align-items: center;
+}
+
+h3.slide-title{
+  color: white;
+  font-size: 60px;
+  font-family: arial;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+p.slide-desc{
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  letter-spacing: 2px;
+  background-color: orange;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #777;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #e7e7e7;
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1268px){ /*CSS DEL MOBILE */
+  #home-content{
+    height: 60vh;
+  }
+  #home{
+    height: 50%;
+  }
+  h3.slide-title{
+    font-size: 12vw !important;
+    text-align: center !important;
+  }
+  p.slide-desc{
+    font-size: 4vw !important;
+  }
+  h2.sez1-title{
+    color: white;
+    font-size: 9vw !important;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 28vw !important;
+  }
+  #sez1{
+    padding-top: 420px !important;
+  }
+  .dwn-button /*Pulsante Download */{
+    border: solid 2px white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: arial !important;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 50px 20px 50px !important;
+    color: white;
+  }
+
+  .dwn-button:hover{
+    color: white !important;
+    background-color: black;
+    border-color: black;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+}
+
+
+
+h1.home-title{
+  font-size: 8vw;
+  font-family: arial;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+  text-shadow: 16px 5px rgba(0,0,0,0.5);
+}
+
+
+
+p.home-description{
+  font-size: 6vw;
+  font-family: arial;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.carousel-inner > .item{
+  min-height: 980px;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+#sez1{
+  height: 100%;
+  width: 100%;
+}
+
+#sez1-content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url(../img/header/header1.jpg);
+  background-position: center center;
+}
+
+
+h2.sez1-title{
+  color: white;
+  font-size: 5vw;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  padding-top: 18vw;
+}
+
+
+.dwn-button /*Pulsante Download */{
+  border: solid 2px white;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: arial !important;
+  text-align: center;
+  margin: 10px 850px 20px 850px;
+  padding: 20px 0px 20px 0px;
+  color: white;
+}
+
+.dwn-button:hover{
+  color: white !important;
+  background-color: black;
+  border-color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
